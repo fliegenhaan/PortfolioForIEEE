@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>belajar html</title>
+</head>
+
+<body bgcolor="lightblue">
+    <p>hello world!</p>
+    <br>
+    <p>wkwkwkwkwkww <br>kkkk</p>
+    <hr>
+    <p><b>selamat dtg</b><i>di</i><u>web sy</u></p>
+    <hr>
+    <p>kwkwwkwkw <em>jsjsjs</em></p> 
+    <h1>WEBSITE BELAJAR HTML</h1>
+    <p>deskripsi web</p>
+    <h2>Bagian 1</h2>
+    <p>penjelasan</p>
+    <h3>To Do List</h3>
+    <ol type="A">
+        <li>Bangun</li>
+        <li>Sholat</li>
+        <li>Tidur lagi</li>
+    </ol>
+    <h3>Done List</h3>
+    <ul type="square">
+        <li>ngoding</li>
+        <li>ngopi</li>
+        <li>ngok</li>
+    </ul>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+    </dl>
+    <p>Klik <a href="2.html">di sini</a> untuk ke halaman 2. </p>
+    <p>Klik <a href="../anotherpage/3.html">di sini</a> untuk ke halaman 3. </p> 
+    <p>Klik <a href="https://youtu.be/oHg5SJYRHA0?si=8k29QlXXasIpCaTi">di sini</a> untuk mengetahui lebih lanjut. </p>
+    <ul id="bagian">
+        <li><a href="#bag1">Bagian 1</a></li>
+        <li><a href="#bag2">Bagian 2</a></li>
+        <li><a href="#bag3">Bagian 3</a></li>
+        <li><a href="#tabel">tabel</a></li>
+        <li><a href="#bag3" target="_blank">Bagian 3</a> di tab baru</li>
+    </ul>
+    <h1 id="judul">Ini adalah page anchor</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag1">Bagian 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam sunt aspernatur rem, ea qui soluta earum temporibus explicabo saepe. Officia quam ipsum impedit aliquid odio molestiae praesentium voluptatem nulla.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag2">Bagian 2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet fuga, aliquid nemo adipisci, delectus accusantium magnam cumque odio doloremque hic dolores explicabo. Aliquid magni odio rerum, fugit praesentium itaque error!</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag3">Bagian 3</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci rerum explicabo, omnis labore necessitatibus ratione veritatis dolorum esse error nostrum, praesentium delectus similique! Veniam veritatis illum quaerat, molestias est cum?</p>
+    <p>Kembali ke <a href="#judul">judul</a></p>
+    <!-- <img src="../anotherpage/rehan.jpg" alt=""> kalo dari folder lain -->
+    <!-- <img src="rehan.jpg" alt=""> kalo dari folder yang sama -->
+    <!-- <img src="reha.jpg" alt="Koncimotol"> kalo typo atau gambar tidak valid maka yg akan tampil adalah koncimotol(alternate text) -->
+    <!-- <img src="rehan.jpg" alt="gambar" width="100%" height="100%" title="fotorehan"> -->
+    <!-- <a href="https://youtu.be/oHg5SJYRHA0?si=8k29QlXXasIpCaTi">
+        <img src="rehan.jpg" alt="gambar">
+    </a> -->
+    <table id="tabel" border="1" cellspacing="0" cellpadding="4">
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+                <th>kolom 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td rowspan="3">rowspan 3</td>
+                <td colspan="2">colspan 2</td>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>baris 3</th>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><br><br>
+    <table id="tabellatihan" border="1" cellspacing="0" cellpadding="6">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2"><strong>?</strong></td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+    <form action="">
+        <table id="tabelform" border="1" cellspacing="0" cellpadding="4">
+            <tr>
+                <td><label for="username">username : </label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <!-- for sama id harus sama krn berhubungan -->
+            <tr>
+                <td><label for="password">password : </label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" id="pria" name="jeniskelamin"> <label for="pria">pria</label><input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label></td>
+                <!-- name itu biar dia pilih salah satu saja -->
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="menyanyi"> <label for="menyanyi">menyanyi</label><input type="checkbox" id="menari"> <label for="menari">menari</label></td>
+            </tr>
+                <td><label for="combobox">Combo Box :</label></td>
+                <td>
+                <select id="combobox">
+                    <option>Bandung</option>
+                    <option>Jakarta</option>
+                    <option>Yogyakarta</option>
+                </select>
+                </td>
+            <tr>
+                <td><label for="textarea">Textarea :</label></td>
+                <td><textarea id="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Kirim!</button></td>
+            </tr>
+        </table>
+    </form>
+</body>  
+</html>

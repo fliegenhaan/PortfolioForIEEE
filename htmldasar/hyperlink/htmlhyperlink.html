@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html
+<head>
+    <title>HTML HyperLink</title>
+</head>
+<body>
+    <p>Klik <a href="halaman2.html">di sini</a> untuk ke halaman 2. </p> <!--untuk ke halaman di folder yang sama-->
+    <p>Klik <a href="../anotherpage/3.html">di sini</a> untuk ke halaman 3. </p> <!--untuk ke halaman di folder yg berbeda pake "--/nama folder/nama file"-->
+    <p>Klik <a href="https://youtu.be/oHg5SJYRHA0?si=8k29QlXXasIpCaTi">di sini</a> untuk mengetahui lebih lanjut. </p> <!--untuk ke link yang dicantumkan-->
+    <ul id="bagian" type="circle">
+        <!-- buat loncat ke bagian tertentu dalam satu halaman gunakan #+"id bagian" -->
+        <li><a href="#bag1">Bagian 1</a></li>
+        <li><a href="#bag2">Bagian 2</a></li>
+        <li><a href="#bag3">Bagian 3</a></li>
+        <!-- gunakan _blank untuk membuka bagian tertentu dalam satu halaman di page baru -->
+        <li><a href="#bag3" target="_blank">Bagian 3</a> di tab baru</li>
+    </ul>
+    <h1 id="judul">Ini adalah page anchor</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag1">Bagian 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam sunt aspernatur rem, ea qui soluta earum temporibus explicabo saepe. Officia quam ipsum impedit aliquid odio molestiae praesentium voluptatem nulla.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag2">Bagian 2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet fuga, aliquid nemo adipisci, delectus accusantium magnam cumque odio doloremque hic dolores explicabo. Aliquid magni odio rerum, fugit praesentium itaque error!</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="bag3">Bagian 3</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci rerum explicabo, omnis labore necessitatibus ratione veritatis dolorum esse error nostrum, praesentium delectus similique! Veniam veritatis illum quaerat, molestias est cum?</p>
+    <p>Kembali ke <a href="#judul">judul</a></p>
+</body>
+</html>

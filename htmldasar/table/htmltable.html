@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+</head>
+<body>
+    <h1>Tabel tanpa garis pembatas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+                <th>kolom 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>baris 3</th>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Tabel dengan garis pembatas dan aplikasi tabel merging</h1>
+    <table id="tabel" border="1" cellspacing="0" cellpadding="4">
+        <!-- thead untuk heading pada kolom -->
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+                <th>kolom 3</th>
+            </tr>
+        </thead>
+        <!-- tbody table body dengan th merupakan heading pada tiap baris -->
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td rowspan="3">rowspan 3</td> <!--rowspan="x" untuk merging kolom sebanyak x kolom-->
+                <td colspan="2">colspan 2</td> <!--colspan="x" untuk merging baris sebanyak x baris-->
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>baris 3</th>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h1>Tabel latihan</h1>
+    <table id="tabellatihan" border="1" cellspacing="0" cellpadding="6">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td colspan="2" rowspan="2"><strong>?</strong></td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+</body>
+</html>
