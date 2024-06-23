@@ -1,0 +1,6 @@
+pseudo-class : kelas semu yang dimiliki oleh semua elemen html yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut
+pseudo-class yg berhubungan dgn link:
+- link (style default pada link)
+- hover (style ketika kursor berada pada elemen)
+- active (style ketika sebuah link diklik)
+- visited (style ketika sebuah link suda pernah dikunjunhgi sebelumnya)

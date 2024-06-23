@@ -1,0 +1,4 @@
+body {
+    /* shorthand = background: color url() position repeat; */
+    background: azure url(../gambarbg/bg2.jpg) top left no-repeat;
+}

@@ -1,0 +1,9 @@
+selector : digunakan pada css untuk mengenali sebuah elemen html yang akan diberi style
+selectors
+- elemen html
+- id 
+- class
+- complex selector
+
+id : elemen html hanya boleh memiliki 1 id, digunakan juga untuk javascript dan sebaiknya tidak digunakan untuk css
+class : 

@@ -1,0 +1,6 @@
+font-family : mengatur jenis font yg akan digunakan
+font-size : mengatur ukuran font
+font-weight : mengatur ketebalan font
+font-variant : mengubah font menjadi small caps
+font-style : mengubah font menjadi bercetak miring
+line-height : mengatur spasi antar baris

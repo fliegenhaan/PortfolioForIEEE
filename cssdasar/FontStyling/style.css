@@ -1,0 +1,12 @@
+h1 {
+    font-family: arial,verdana,sans-serif; /*arial,verdana,sans serif merupakan urutan font yg akan diprioritaskan ditampilkan di perangkat user */
+    font-size: 100px;
+    font-weight: 200;
+    font-variant: small-caps;
+    font-style: italic; /*berubah jika font familynya memiliki italic or OS memaksa font menjadi miring(oblique)*/
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    line-height: 40px;
+}

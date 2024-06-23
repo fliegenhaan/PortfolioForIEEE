@@ -1,0 +1,8 @@
+Text
+color : memberi warna pada tulisan (bisa pakai nama,hexadecimal,rgb)
+text-align : mengatur format paragraf/teks
+text-indent : memberi indentasi pada paragraf/teks
+text-decoration : mengatur dekorasi pada teks
+text-transform : mengubah jenis huruf menjadi huruf besar,kecil/kapital
+letter-spacing : mengatur spasi antar huruf
+word-spacing : mengatur spasi antar kata

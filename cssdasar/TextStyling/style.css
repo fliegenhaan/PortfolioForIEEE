@@ -1,0 +1,18 @@
+h1 {
+    font-size: 120px;
+    color: #fff221; /*pake hexa */
+    text-transform: capitalize; /* defaultnya udh capitalize */
+}
+
+h2 {
+    font-size: 100px;
+    color: rgb(115,80,212); /* pake rgb */
+}
+
+p {
+    text-align: center;
+    text-indent: 60px;
+    text-decoration: line-through;
+    text-transform: capitalize; /* tiap kata berkapital */
+    word-spacing: 60px;
+}

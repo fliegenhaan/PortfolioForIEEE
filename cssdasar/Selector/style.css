@@ -1,0 +1,40 @@
+body {
+    font-family: arial;
+}
+
+h1,h2{
+    color:bisque;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+} 
+/* font h2 berubah tapi h1 tidak */
+ul {
+    color:rgb(0, 255, 217);
+} /* yang berubah hanya titik titik listnya saja*/
+
+ul li a {
+    color: blueviolet;
+}
+
+ol li a {
+    color: rosybrown;
+}
+
+/* biar tiap paragraf beda warna maka tiap p harus ada id nya */
+#p1 {
+    color:brown;
+}
+.p2 {
+    color:aqua;
+}
+
+p.cetak-tebal {
+    font-size: 30px; /* yang berubah hanya paragraf(link a yang "belajar selector css" tidak berubah) karena memakai p.class */
+}
+
+a.cetak-tebal {
+    font-size: 20px;
+}
+/* untuk id pake #, untuk class pake . */

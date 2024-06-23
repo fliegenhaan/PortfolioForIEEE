@@ -1,0 +1,7 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(../gambarbg/bg1.jpg);
+    color: aqua ;/* Karena bg nya gelap warna semua teks di body diubah jadi terang */
+    background-repeat: no-repeat; 
+    background-position: top center;
+}

@@ -1,0 +1,7 @@
+a.belajar:link {
+    color:orange;
+}
+a.belajar:hover {
+    font-family: 'Arial', Times, serif;
+    font-size: 35px;
+}
