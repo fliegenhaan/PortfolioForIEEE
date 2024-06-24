@@ -4,4 +4,28 @@ a.belajar:link {
 a.belajar:hover {
     font-family: 'Arial', Times, serif;
     font-size: 35px;
+    /* ketika kursor di atas link maka berubah font dan size */
+}
+a.belajar:active {
+    font-style: italic; /*ketika diklik dia berubah jadi italic */
+}
+li:first-child a {
+    color: green
+    /* yg berubah link di anak pertama */
+}
+li:first-child {
+    color: brown
+    /* yang berubah text biasa di anak pertama */
+}
+li:nth-child(3n) a:hover {
+    color:blanchedalmond 
+    /* yang berubah anak ke kelipatan 3 */
+}
+/* atau juga bisa pakai
+li:nth-child(odd atau even) a {
+    color: ---
+}
+ */
+p:first-of-type {
+    color:chartreuse
 }
