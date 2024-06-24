@@ -1,0 +1,38 @@
+Specificity : setiap deklarasi css(selektor) memiliki berat yang berbeda. berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+contoh 1
+p { color: red;}
+p { color: green;}
+maka p akan berubah jadi hijau karena setara tetapi yg green di bawah line yg merah
+tapi jika ditambah id
+#p1 { color:red;}
+p { color:green;}
+maka akan berubah jadi merah, karena lebih spesifik
+urutan prioritasnya : inline-id-class-element
+
+contoh 2
+html
+<ul id="sarapan">
+    <li class="favorit">Nasgor</li>
+    <li>mie</li>
+    <li>bubur</li>
+</ul>
+
+css
+ul#sarapan li {
+    color: green;
+}
+
+.favorit {
+    color: red;
+}
+
+tulisan nasgor akan tetap hijau karena bobot/berat id lebih spesifik diprioritaskan daripada class
+tetapi jika ingin nasgor jadi merah gunakan ini:
+css
+ul#sarapan li {
+    color: green;
+}
+
+ul#sarapan li.favorit {
+    color: red;
+}
